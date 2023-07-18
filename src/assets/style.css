@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* card */
+
+.card .card-shadow {
+  @apply transition duration-300 shadow-none h-full;
+}
+
+.card:hover .card-shadow {
+  @apply shadow-lg;
+}
