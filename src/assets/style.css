@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 768px) {
+  body {
+    min-height: 90vh;
+  }
+}
+
 /* card */
 
 .card .card-shadow {
@@ -11,4 +17,9 @@
 
 .card:hover .card-shadow {
   @apply shadow-lg;
+}
+
+.grid {
+  grid-auto-flow: row dense;
+  grid-auto-rows: minmax(180px, auto);
 }
