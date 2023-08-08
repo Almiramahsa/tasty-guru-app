@@ -2,8 +2,7 @@
 import { defineProps, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import api from '../api'
-import YouTubeButton from '../components/YouTubeButton.vue'
-
+import YouTubeButton from '@/components/YouTubeButton.vue'
 const route = useRoute()
 const meal = ref({})
 
@@ -58,7 +57,7 @@ const props = defineProps({
         <a
           :href="meal.strSource"
           target="_blank"
-          class="ml-3 px-3 py-2 rounded border-2 border-transparent text-indigo-600 transition-colors"
+          class="ml-3 px-3 font-jakarta py-2 rounded border-2 border-transparent text-indigo-600 transition-colors"
         >
           View Original Source
         </a>
