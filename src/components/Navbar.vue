@@ -2,7 +2,7 @@
   <header class="bg-white shadow-sm h-20 flex justify-between items-center">
     <router-link :to="{ name: 'home' }">
       <img
-        src="../assets//images//Tasty Guru.svg"
+        src="../assets/images/tastyguru.svg"
         alt="Logo Tasty Guru"
         width="154"
         class="inline-flex items-center px-5"

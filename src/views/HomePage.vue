@@ -14,7 +14,7 @@ onMounted(async () => {
 <template>
   <div class="flex flex-wrap items-center p-8">
     <div class="w-full md:w-1/2 pr-8">
-      <img src="/src/assets/images/cook_man 1.png" alt="Cooking Man" class="max-w-full h-auto" />
+      <img src="/src/assets/images/cook.png" alt="Cooking Man" class="max-w-full h-auto" />
     </div>
     <div class="w-full md:w-1/2 mt-4 md:mt-0 flex flex-col justify-between">
       <div class="flex flex-col md:mx-12 mx-2">
